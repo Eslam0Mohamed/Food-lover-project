@@ -120,15 +120,9 @@ flex-direction: column;
     }
     .contact-content{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
+        flex-direction: ;
     }
-    .contact-content div:last-child{
-       width: 400px;
-  margin: 15px auto;
-    }}
+  }
 header::before {
     content: "";
     position: absolute;

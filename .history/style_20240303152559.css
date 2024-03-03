@@ -114,21 +114,10 @@ flex-direction: column;
         display: flex;
         flex-direction: column;
     }
-    .day-time-items .day-item{
-    padding-top: 30px;
-    margin-top: 15px;
-    }
-    .contact-content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .day-time-items {
 
     }
-    .contact-content div:last-child{
-       width: 400px;
-  margin: 15px auto;
-    }}
+  }
 header::before {
     content: "";
     position: absolute;

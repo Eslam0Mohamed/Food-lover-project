@@ -119,16 +119,9 @@ flex-direction: column;
     margin-top: 15px;
     }
     .contact-content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
+        display: ;
     }
-    .contact-content div:last-child{
-       width: 400px;
-  margin: 15px auto;
-    }}
+  }
 header::before {
     content: "";
     position: absolute;

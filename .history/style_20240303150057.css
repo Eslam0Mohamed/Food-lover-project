@@ -5,16 +5,29 @@
     box-sizing: border-box;
 
 }
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 html{
     scroll-behavior: smooth;
 }
 
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
 
 /* utalitiy classes  */
 .primary-text {
@@ -86,49 +99,21 @@ margin-bottom: 200px;
     }
     #offers{
         padding-top: 50px;
-        padding-bottom: 50px; 
-        min-height: 160vh;
+        padding-bottom: 50px;
+        
     }
     #offers .offers-item{
 display: flex;
 flex-direction: column;
     }
-    #menu .menu-item h3 .primary-text{
-    padding-left: px;
+    #menu{
+        padding-top: 200px;
+        
     }
     #menu h1{
-        padding-top: 80px;
+        padding-top: 100px;
     }
-    #menu .menu-items{
-        display: flex;
-        flex-direction: column;
-    }
-    #menu .menu-item{
-        padding: 0 10px;
-    }
-    #day-time{
-      min-height: 80vh;  
-      padding-top: 130px;
-    }
-    .day-time-items{
-        display: flex;
-        flex-direction: column;
-    }
-    .day-time-items .day-item{
-    padding-top: 30px;
-    margin-top: 15px;
-    }
-    .contact-content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-    .contact-content div:last-child{
-       width: 400px;
-  margin: 15px auto;
-    }}
+  }
 header::before {
     content: "";
     position: absolute;
@@ -202,7 +187,12 @@ body {
     margin: 20px 0;
 }
 
-
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 #about {
     display: flex;
@@ -259,7 +249,7 @@ body {
 
 /* start offers  */
 #offers {
-    height: 100vh;
+    height: 160vh;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -496,23 +486,4 @@ font-size: 14px;
 }
 #footer a{
     color: white;
-}
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
-/* Medium */
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-/* Large */
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
 }

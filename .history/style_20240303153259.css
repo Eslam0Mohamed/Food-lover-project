@@ -126,9 +126,8 @@ flex-direction: column;
 
     }
     .contact-content div:last-child{
-       width: 400px;
-  margin: 15px auto;
-    }}
+       width: ;
+  }
 header::before {
     content: "";
     position: absolute;
