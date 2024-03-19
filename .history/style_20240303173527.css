@@ -40,7 +40,7 @@ html{
 
 header {
     height: 100vh;
-    background-image: url('images/home_bg.jpeg');
+    background-image: url('/images/h');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -461,15 +461,15 @@ text-align: center;
     color: #e4b95b;
 }
 #contact .contact-content .contact-info div a i{
-    color:#383848;
+    color: white;
+    background-color: #383848;
     font-size: 30px;
     padding: 15px;
     margin-top: 10px;
     border-radius: 50%;
-    transition: 0.4s;
 }
 #contact .contact-content .contact-info div a i:hover{
-transform: scale(1.2)
+    background-color: #e4b95b;
 }
 #contact .contact-content form{
     width: 50%;
